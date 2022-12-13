@@ -54,8 +54,8 @@ In MySQL server (PHPMyAdmin which was provided by WAMPserver) you can import the
 4. Date range and search weren't added to the item report list since it wasn't specifically mentioned here.
 5. Special MySQL codes were used to make the item name distinct and not repeat while only adding their quantities.
 
-
-
+#Extra Assumptions
+1. I Didn't try editing out the database itself since there were no requirements regarding that. But the database was lacking relationships between tables. Might've been easier if the relationships were established when they were created. But I managed to complete all the requirements with PHP and MySQL queries alone. 
 
 
 ## Screenshots
