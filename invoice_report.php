@@ -15,17 +15,6 @@ if(isset($_POST['searchBtn'])){
     $sql = "SELECT invoice.date, invoice.invoice_no, invoice.customer, invoice.item_count, invoice.amount, customer.district, customer.first_name FROM `invoice` LEFT JOIN customer on invoice.customer = customer.id";
 }
 
-
-if(isset($_POST['filterBtn'])){
-    
-        $from_date = $_POST['from_date'];
-        $to_date = $_POST['to_date'];
-    
-        $sql = "SELECT invoice.date, invoice.invoice_no, invoice.customer, invoice.item_count, invoice.amount, customer.district, customer.first_name FROM `invoice` LEFT JOIN customer on invoice.customer = customer.id
-                    WHERE invoice.date BETWEEN '$from_date' AND '$to_date' ";
-        // $results = mysqli_query($con, $query);
-    
-}
                   
 $results = mysqli_query($con, $sql);
 
@@ -38,7 +27,7 @@ $results = mysqli_query($con, $sql);
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Items</title>
+    <title>Invoice Report</title>
 
 
 </head>
