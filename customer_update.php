@@ -9,6 +9,7 @@ $sql = "SELECT * FROM customer WHERE  id = '$Id'";
 
 $results = mysqli_query($con, $sql);
 
+//This will fetch the information that needs to be displayed in the form fields
 while ($row = mysqli_fetch_assoc($results)) {
     $first_name = $row['first_name'];
     $last_name = $row['last_name'];
@@ -16,6 +17,7 @@ while ($row = mysqli_fetch_assoc($results)) {
     $cust_district = $row['district'];
 }
 
+//This carries out the operation when the submit button is pressed
 if(isset($_POST['submitbtn'])){
     $title = $_POST['selectTitle'];
     $firstName = $_POST['firstName'];
@@ -123,8 +125,6 @@ if(isset($_POST['submitbtn'])){
         
 </div>
 </body>
-
-    
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </html>

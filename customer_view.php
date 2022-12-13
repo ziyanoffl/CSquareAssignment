@@ -6,12 +6,10 @@ include 'con.php';
 
 
 // this is to get the information from the database
-
-
-
-
 if(isset($_POST['searchBtn'])){
     $valueToSearch = $_POST['valueToSearch'];
+
+    //This specifically searches for the values in columns inside concat
     $sql = "SELECT * FROM `customer` WHERE CONCAT(`id`, `title`, `first_name`, `last_name`, `contact_no`, `district`) LIKE '%".$valueToSearch."%'";
 }else{
     $sql = "SELECT * FROM customer";
