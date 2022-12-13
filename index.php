@@ -97,7 +97,7 @@ if(isset($_POST['submitbtn'])){
         <div class="card">
         <div class="card-body">
             <h5 class="card-title">Invoice Item Report</h5>
-            <p class="card-text">View the Item report.</p>
+            <p class="card-text">View the Invoice Item report.</p>
             <a href="invoice_item_report.php" class="btn btn-primary">View Page</a>
         </div>
         </div>
