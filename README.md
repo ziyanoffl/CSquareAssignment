@@ -21,7 +21,7 @@ This project satisfies all the requirements given.
 
 5. Run the index.php file by typing in the browser as follows:
 ```bash
-  localhost/](http://localhost/CSquareAssignment/index.php
+  localhost/http://localhost/CSquareAssignment/index.php
 ```
 
 ## Environment Variables
