@@ -9,7 +9,7 @@ if(isset($_POST['searchBtn'])){
 
     $valueToSearch = $_POST['valueToSearch'];
     $sql = "SELECT invoice.date, invoice.invoice_no, invoice.customer, invoice.item_count, invoice.amount, customer.district, customer.first_name FROM `invoice` LEFT JOIN customer on invoice.customer = customer.id 
-        WHERE CONCAT(`invoice_no`, `customer`, `district`) LIKE '%".$valueToSearch."%' AND invoice.date BETWEEN '$from_date' AND '$to_date'";
+        WHERE CONCAT(`invoice_no`, `customer`, `district`, `first_name`) LIKE '%".$valueToSearch."%' AND invoice.date BETWEEN '$from_date' AND '$to_date'";
 }else{
     // this is to get the information from the database
     $sql = "SELECT invoice.date, invoice.invoice_no, invoice.customer, invoice.item_count, invoice.amount, customer.district, customer.first_name FROM `invoice` LEFT JOIN customer on invoice.customer = customer.id";
@@ -42,7 +42,7 @@ $results = mysqli_query($con, $sql);
 <div class="container">
     <div class="row justify-content-center">
         <p></p>
-        <h2 class="text-center">Item Information</h2>                
+        <h2 class="text-center">Invoice Report</h2>                
         <Form class="needs-validation" method="POST" novalidate>
             <input class="form-control mt-4" type="text" name="valueToSearch" placeholder="Search table..." required>
             <div class="invalid-feedback">

@@ -58,7 +58,7 @@ if(isset($_POST['submitbtn'])){
  
 <body style="background-color: #aee4ff;">
 <div class="container">
-    <h2 class="text-center">Add Item</h2>
+    <h2 class="text-center">Update Item</h2>
     <form class="row needs-validation" method="POST" novalidate>
         <div class="row">
             
