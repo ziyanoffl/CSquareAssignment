@@ -77,7 +77,7 @@ if(isset($_POST['submitbtn'])){
         <div class="card-body">
             <h5 class="card-title">Item Information</h5>
             <p class="card-text">This page can be used to add new items and to also view, update and delete added Items.</p>
-            <a href="#" class="btn btn-primary">View Page</a>
+            <a href="item_view.php" class="btn btn-primary">View Page</a>
         </div>
         </div>
     </div>
@@ -87,18 +87,30 @@ if(isset($_POST['submitbtn'])){
     <div class="col-sm-6">
         <div class="card">
         <div class="card-body">
-            <h5 class="card-title">Special title treatment</h5>
-            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            <a href="#" class="btn btn-primary">View Page</a>
+            <h5 class="card-title">Invoice Report</h5>
+            <p class="card-text">View the invoice report</p>
+            <a href="invoice_report.php" class="btn btn-primary">View Page</a>
         </div>
         </div>
     </div>
     <div class="col-sm-6">
         <div class="card">
         <div class="card-body">
-            <h5 class="card-title">Special title treatment</h5>
-            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            <a href="#" class="btn btn-primary">View Page</a>
+            <h5 class="card-title">Invoice Item Report</h5>
+            <p class="card-text">View the Item report.</p>
+            <a href="invoice_item_report.php" class="btn btn-primary">View Page</a>
+        </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="row mt-5">
+    <div class="col-sm-6">
+        <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">Item report</h5>
+            <p class="card-text">View the Item report.</p>
+            <a href="item_report.php" class="btn btn-primary">View Page</a>
         </div>
         </div>
     </div>
