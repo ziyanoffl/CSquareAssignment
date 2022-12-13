@@ -18,7 +18,11 @@ This project satisfies all the requirements given.
 4. Edit the con.php file in the project folder to have the correct credentials of your MySQL server. The current configurations are as given below:
 
 ![image](https://user-images.githubusercontent.com/86348725/207273519-30f24f9f-1e8d-475f-b4b5-335c87059b2b.png)
-7. Run the index.php file. 
+
+5. Run the index.php file by typing in the browser as follows:
+```bash
+  localhost/](http://localhost/CSquareAssignment/index.php
+```
 
 ## Environment Variables
 
