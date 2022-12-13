@@ -33,7 +33,7 @@ In MySQL server (PHPMyAdmin which was provided by WAMPserver) you can import the
 ![image](https://user-images.githubusercontent.com/86348725/207261342-bda6762f-b813-4c18-8486-a7d5b856e293.png)
 
 
-## Assumptions
+## Assumptions & Features added
 #Task 1
 
 1. Middle name wasn't used in the form since it wasn't mentioned in the requirement. 
@@ -52,6 +52,7 @@ In MySQL server (PHPMyAdmin which was provided by WAMPserver) you can import the
 2. Since no update or delete was mentioned here specifically, it wasn't implemented.
 3. Joins and other functions of SQL were used here to get the specific information to the table. 
 4. Date range and search weren't added to the item report list since it wasn't specifically mentioned here.
+5. Special MySQL codes were used to make the item name distinct and not repeat while only adding their quantities.
 
 
 
@@ -59,6 +60,17 @@ In MySQL server (PHPMyAdmin which was provided by WAMPserver) you can import the
 
 ## Screenshots
 ![image](https://user-images.githubusercontent.com/86348725/207267848-0e29ac9d-8f51-4afc-b7df-e5958965bfb5.png)
+![image](https://user-images.githubusercontent.com/86348725/207279460-2343a76d-ddf6-4b08-83f0-aa39f92520fa.png)
+![image](https://user-images.githubusercontent.com/86348725/207279226-90bd2975-dc6d-4e68-b82b-72a67f744661.png)
+![image](https://user-images.githubusercontent.com/86348725/207279373-767fbc85-1827-4dcd-94d7-a8e8c1055396.png)
+![image](https://user-images.githubusercontent.com/86348725/207279515-bea449fe-066c-4228-aaac-2171e3c5c021.png)
+![image](https://user-images.githubusercontent.com/86348725/207280232-1f07fda1-38c4-4c50-ab7f-f833958dd236.png)
+![image](https://user-images.githubusercontent.com/86348725/207280290-b559b3e8-dcca-4ec5-835b-a12c7b9686f3.png)
+![image](https://user-images.githubusercontent.com/86348725/207280453-f7d4f28b-7c74-4b4c-80f0-8e8f875fec36.png)
+![image](https://user-images.githubusercontent.com/86348725/207280503-713076e2-0c1c-44d4-8661-14370d4f5412.png)
+![image](https://user-images.githubusercontent.com/86348725/207280565-5b4e9b8b-bcb6-432c-8190-b481ef574dac.png)
+
+
 
 
 
