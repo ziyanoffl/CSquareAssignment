@@ -24,6 +24,8 @@ This project satisfies all the requirements given.
 To run this project, you will need to have a running PHP server such as WAMP or XAMPP along with a MySQL server. In my case, I used the MySQL server provided by the WAMPserver.
 
 In MySQL server (PHPMyAdmin which was provided by WAMPserver) you can import the .sql file or the database which was used in this assignment.
+
+
 ![image](https://user-images.githubusercontent.com/86348725/207261342-bda6762f-b813-4c18-8486-a7d5b856e293.png)
 
 
