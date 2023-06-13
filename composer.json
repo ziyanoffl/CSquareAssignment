@@ -1,5 +1,32 @@
 {
-  "require": {
-    "": "<default>"
+    "name": "CSquareAssignment",
+    "description": "A sample PHP project using Composer",
+    "type": "library",
+    "keywords": ["php", "composer", "example"],
+    "homepage": "https://your-project.com",
+    "license": "MIT",
+    "authors": [
+      {
+        "name": "Your Name",
+        "email": "your.email@example.com",
+        "homepage": "https://your-website.com",
+        "role": "Developer"
+      }
+    ],
+    "require": {
+      "php": "^7.4",
+      "vendor/package1": "^1.0",
+      "vendor/package2": "^2.0"
+    },
+    "require-dev": {
+      "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+      "psr-4": {
+        "YourVendor\\YourProject\\": "src/"
+      }
+    },
+    "scripts": {
+      "test": "phpunit"
+    }
   }
-}
