@@ -4,10 +4,7 @@ include 'con.php';
 
 
 
-
 // this is to get the information from the database
-
-
 
 
 if(isset($_POST['searchBtn'])){
